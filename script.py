@@ -6,7 +6,12 @@ def default():
 def cat():
     print("Mnau")
 
+def dog():
+    print("Haf")
+
 def main():
+    if sys.argv[1] == "dog":
+        dog()
     if sys.argv[1] == "cat":
         cat()
     else:
