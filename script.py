@@ -1,6 +1,7 @@
 import sys
 
 def default():
+    print("HERE")
     print("Ahoj")
 
 def cat():
